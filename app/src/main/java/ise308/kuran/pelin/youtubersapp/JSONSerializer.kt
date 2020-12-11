@@ -7,6 +7,8 @@ import org.json.JSONTokener
 import java.io.*
 import java.lang.StringBuilder
 
+// saving application data to a JSON file and retrieving it and adding
+//support to different languages.
 class JSONSerializer(private val filename: String, private val context: Context) {
     @Throws(IOException::class, JSONException::class)
     fun save(noteList: List<Note>) {

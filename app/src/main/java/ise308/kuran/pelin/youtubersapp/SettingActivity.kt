@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Switch
 
+// Multiple activities, saving settings data to shared preferences,
 private const val TAG = "SettingsActivity"
 
 class SettingActivity : AppCompatActivity() {

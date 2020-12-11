@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Notes to PelinKuran</string>
+    <string name="app_name" translatable="false">NoteTo PelinKuran</string>
     <string name="hello_world" translatable="false">Hello world!</string>
     <string name="action_settings" translatable="false">Settings</string>
     <string name="action_add" translatable="false">Add</string>
