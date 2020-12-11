@@ -1,7 +1,5 @@
 package ise308.kuran.pelin.youtubersapp
-//Sorry for the package directive, it was too late for me to fix it after I noticed it.
-// However my application's name is still NoteToPelinKuran.
-// Thank you for your understanding.
+
 import android.app.Dialog
 import android.os.Bundle
 import android.view.View
@@ -14,6 +12,7 @@ import androidx.fragment.app.DialogFragment
 import ise308.kuran.pelin.youtubersapp.Note
 import ise308.kuran.pelin.youtubersapp.R
 
+//Viewholder
 class DialogShowNote : DialogFragment() {
 
     private var note: Note? = null

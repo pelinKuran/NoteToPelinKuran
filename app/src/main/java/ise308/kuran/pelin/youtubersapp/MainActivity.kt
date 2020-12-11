@@ -1,5 +1,7 @@
 package ise308.kuran.pelin.youtubersapp
-
+//Sorry for the package directive, it was too late for me to fix it after I noticed it.
+// However my application's name is still NoteToPelinKuran.
+// Thank you for your understanding.
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +17,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import ise308.kuran.pelin.notetopelinkuran.DialogNewNote
 import java.lang.Exception
 
+//Intents,
 private const val TAG = "MainActivity"
 
 class MainActivity : AppCompatActivity() {

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">Note à PelinKuran</string>
+    <string name="hello_world" translatable="false">Bonjour le monde!</string>
+    <string name="action_settings" translatable="false">Réglages</string>
+    <string name="action_add" translatable="false">Ajouter</string>
+    <string name="title_hint" translatable="false">Titre</string>
+    <string name="description_hint" translatable="false">La description</string>
+    <string name="idea_checkbox" translatable="false">Idée</string>
+    <string name="important_checkbox" translatable="false">Importante</string>
+    <string name="todo_checkbox" translatable="false">Faire</string>
+    <string name="cancel_button" translatable="false">Annuler</string>
+    <string name="ok_button" translatable="false">Bien</string>
+    <string name="settings_title" translatable="false">Réglages</string>
+    <string name="theme_title" translatable="false">Thème</string>
+    <string name="theme_light" translatable="false">Lumière</string>
+    <string name="theme_dark" translatable="false">Sombre</string>
+    <string name="button_done" translatable="false">Terminé</string>
+</resources>

@@ -12,6 +12,7 @@ import ise308.kuran.pelin.youtubersapp.MainActivity
 import ise308.kuran.pelin.youtubersapp.Note
 import ise308.kuran.pelin.youtubersapp.R
 
+//Dialogs, arrays of objects,
 class DialogNewNote : DialogFragment() {
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
 
@@ -39,7 +40,7 @@ class DialogNewNote : DialogFragment() {
             newNote.idea = checkBoxIdea.isChecked
             newNote.todo = checkBoxTodo.isChecked
             newNote.important = checkBoImportant.isChecked
-            val callingActivity= activity as MainActivity?
+            val callingActivity = activity as MainActivity?
             callingActivity!!.createNewNote(newNote)
             dismiss()
 

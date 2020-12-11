@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
+//Adapter
 class NoteAdapter(private val noteList: ArrayList<Note>, private val mainActivity: MainActivity) :
     RecyclerView.Adapter<NoteAdapter.ItemHolder>() {
     inner class ItemHolder(ItemView: View) :
@@ -46,13 +47,13 @@ class NoteAdapter(private val noteList: ArrayList<Note>, private val mainActivit
         var note = noteList[position]
         holder.title_of_note.text = note.title
         val substringLength = if (note.description!!.length < 15) note.description!!.length else 20
-        val preview_desc="${note.description!!.substring(0,substringLength)}"
-            holder.description_of_note.text = preview_desc
+        val preview_desc = "${note.description!!.substring(0, substringLength)}"
+        holder.description_of_note.text = preview_desc
         holder.status_of_note.text = note.status
-        when{
-            note.idea ->holder.status_of_note.text="Idea"
-            note.important->holder.status_of_note.text="Important"
-            note.todo->holder.status_of_note.text="ToDo"
+        when {
+            note.idea -> holder.status_of_note.text = "Idea"
+            note.important -> holder.status_of_note.text = "Important"
+            note.todo -> holder.status_of_note.text = "ToDo"
         }
 
         if (position == 0) holder.title_of_note.setBackgroundColor(Color.LTGRAY)
