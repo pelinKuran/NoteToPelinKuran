@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="checkbox_marginBottom">58dp</dimen>
+    <dimen name="checbox_marginTop">25dp</dimen>
+    <dimen name="checkbox_marginStart">25dp</dimen>
+    <dimen name="button_marginBottom">20dp</dimen>
+ <dimen name="sixtyeightdp">68dp</dimen>
+</resources>
